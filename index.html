@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        KFC
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        i {
+            color: yellow;
+        }
+
+        i:hover {
+            color: #f63737;
+        }
+
+        .nav-link {
+            color: #fbfaf9;
+            font-size: large;
+        }
+
+        .nav-link:hover {
+            color: #fcf46a;
+
+        }
+
+        .form-control {
+            margin-left: 40%;
+            width: 40%;
+        }
+
+        .browse-parent {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+
+        .browse {
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0;
+            padding-right: 15px;
+        }
+
+
+        .horizontal-line {
+            flex-grow: 1;
+            border-top: 4px solid #000;
+            margin-top: 2px;
+        }
+
+        .card-footer {
+            background-color: #000;
+            color: #fcf46a;
+        }
+
+        .card-footer:hover {
+            background-color: #fcf46a;
+            color: #000;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fcf46a;
+        }
+
+        .container-fluid {
+            background-color: #000;
+            color: #fcf46a;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-black">
+            <a class="navbar-brand" href="#">
+                <img src="./KFC logo.png" width="35" height="35" class="d-inline-block align-top" alt="">
+                <strong><i>KFC</i></strong>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <b><a class="nav-link" href="#">HOME</a></b>
+                    </li>
+                    <li class="nav-item">
+                      <B>  <a class="nav-link" href="./Manu.html">MENU</a></B>
+                    </li>
+                    <li class="nav-item">
+                       <B> <a class="nav-link" href="./Deals.html">DEALS</a></B>
+                    </li>
+                </ul>
+
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+            </div>
+        </nav>
+    </header>
+    <div class="browse-parent d-flex mx-2">
+        <h2 class="browse">BROWSE CATEGORIES</h2>
+        <div class="horizontal-line"></div>
+    </div>
+
+
+    <!--card-->
+    <div class="card-group">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD1.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">INTERNATIONAL BURGER FEST</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD2.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">MATCH DAY COMBOS</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD3.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">VALUE LUNCH SPECIALS</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD4.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">BOX MEALS</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD5.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">BURGERS</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD6.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">CHICKEN BUCKETS</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD7.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">RICE BOWLZ</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-3 mt-2">
+                    <a class="nav-link" href="./Manu.html">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./HOME PAGE/CARD8.jpg" class="card-img-top" alt="...">
+                            <div class="card-footer text-center fs-6 fw-bold">
+                                <small class="text">VIEW ALL MANU</small>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer bar-->
+    <div class="container-fluid">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-4 border-top">
+            <div class="col">
+                <a href="#" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                    <img src="./KFC logo.png" class="bi me-2" width="70" height="62">
+                </a>
+                <p class=" ">KFC FOOD PRIVATE LIMITED</p>
+            </div>
+
+            <div class="col">
+
+            </div>
+
+            <div class="col">
+                <h5>KFC India</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">About KFC</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">KFC Care</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Careers</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Our Golden Past</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Responsible Disclosure</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>Legal</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Terms and Conditions</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Privacy Policy</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Disclaimer</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Caution Notice</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h5>KFC Food</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Menu</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Order Lookup</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Gift Card</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Nutrition</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0  ">Allergen</a></li>
+                </ul>
+            </div>
+        </footer>
+        <div class="container-fluid pb-1">
+            <ul class="nav justify-content-center border-bottom">
+                <li class="nav-item"><a href="#" class="nav-link px-2  "><i class="bi bi-facebook"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  "><i class="bi bi-whatsapp"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  "><i class="bi bi-envelope"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  "><i class="bi bi-twitter"></i></a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2  "><i class="bi bi-instagram"></i></a></li>
+            </ul>
+            <p class="text-center">Copyright © KFC Corporation 2024 All rights reserved</p>
+        </div>
+    </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
